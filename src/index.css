@@ -86,4 +86,7 @@ a {
   .search-bar{
     width:200px;
   }
+  .logotext{
+    display: none;
+  }
 }
