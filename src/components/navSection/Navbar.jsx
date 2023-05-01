@@ -11,7 +11,8 @@ const Navbar = () => {
      direction="row"
      alignItems="center"
      p={2}
-     sx={{ position: 'sticky' , background:'#708090' , top:0 , justifyContent:'space-between'}}
+     sx={{ position: 'sticky'  , top:0 , justifyContent:'space-between'}}
+     style={{background: 'linear-gradient(175deg, rgb(6, 2, 2) 32.4%, rgb(137, 30, 47) 98.8%)'}}
      >
     
     <Link to='/' style={{display:'flex' , alignItems:'center' }}>
