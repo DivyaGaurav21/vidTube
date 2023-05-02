@@ -34,7 +34,7 @@ useEffect(()=>{
      </Box>
 
     <Box p={2} sx={{overflowY:'auto' , height:'90vh', flex:2}}>
-      <Typography variant='h5' fontWeight="bold" mb={2} sx={{color:"#fff"}}>
+      <Typography variant='h6' fontWeight="bold" mb={2} sx={{color:"#fff"}}>
        {selectedCateogary} <span style={{color:'#f31503' }}>videos</span>
       </Typography>
       <Videos videos={videos}/>
