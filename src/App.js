@@ -8,7 +8,7 @@ import './App.css'
 import Navbar from "./components/navSection/Navbar";
 import Feed from "./components/Feed/Feed";
 import VideoDetail from "./components/VideoDetail";
-import ChannelDetail from "./components/ChannelDetail";
+import ChannelDetail from "./components/Videos/ChannelDetail";
 import SearchFeed from "./components/SearchFeed";
 
 
