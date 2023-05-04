@@ -30,7 +30,7 @@ useEffect(()=>{
        />
 
       <Typography className='copyright' varient='body2' sx={{mt:1.5 , color:'#fff'}}>
-       cpr fetching@rapidApi
+       divyagaurav@rapidApi
       </Typography>
      </Box>
 
