@@ -18,6 +18,7 @@ useEffect(()=>{
   })
 }, [selectedCateogary])
 
+
   return (
     <Stack sx={{flexDirection:{sx:"column" , md: "row"}}}>
 

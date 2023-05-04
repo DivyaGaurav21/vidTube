@@ -2,11 +2,13 @@ import React from 'react'
 import { useState, useEffect } from 'react';
 import { Box, Typography } from '@mui/material';
 import { useParams } from 'react-router-dom';
+import Videos from './Videos/Videos';
+import { fetchFromAPI } from '../utils/fetchFromAPI';
 
-import Videos from '../Videos/Videos';
+
 
 //-----api data-------------//
-import { fetchFromAPI } from '../../utils/fetchFromAPI';
+
 
 
 const SearchFeed = () => {

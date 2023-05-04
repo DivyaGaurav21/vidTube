@@ -19,7 +19,7 @@ const Navbar = () => {
     >
 
       <Link to='/' style={{ display: 'flex', alignItems: 'center' }}>
-        <img src={logo} alt="Logo Image" height={45} />
+        <img src={logo} alt="Logo Imagess" height={45} />
         <span className='logotext' style={{color:'#fff' , marginLeft:'5px' , fontSize:'1.5rem' , fontWeight:'800'}}>VTuBe</span>
       </Link>
 
