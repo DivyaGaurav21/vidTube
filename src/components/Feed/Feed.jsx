@@ -34,11 +34,13 @@ useEffect(()=>{
       </Typography>
      </Box>
 
-    <Box p={2} sx={{overflowY:'auto' , height:'90vh' }} >
+    <Box p={2} sx={{overflowY:'auto' , height:'90vh'  }} >
       <Typography variant='h6' fontWeight="bold" mb={2} sx={{color:"#fff"}}>
        {selectedCateogary} <span style={{color:'#f31503' }}>videos</span>
       </Typography>
+      <Box sx={{display: "flex", justifyContent: "center"}}>
       <Videos videos={videos}/>
+      </Box>
     </Box>
 
     </Stack>
